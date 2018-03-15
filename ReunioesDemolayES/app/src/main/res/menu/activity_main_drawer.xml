@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_listarCapitulo"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Capítulos" />
+        <item
+            android:id="@+id/nav_informacoes"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="Informações" />
+        <item
+            android:id="@+id/nav_proximasReunioes"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Próximas Reuniões" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+        </menu>
+    </item>
+
+</menu>
